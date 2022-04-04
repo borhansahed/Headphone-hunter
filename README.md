@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# HEADPHONE-HUNTER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LIVE PROJECT :(https://harmonious-kringle-27909d.netlify.app)
 
 ## Available Scripts
 
