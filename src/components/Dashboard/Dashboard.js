@@ -1,10 +1,15 @@
 import React from 'react';
+import MyLineChart from '../../Charts/MyLineChart/MyLineChart';
+
 
 const Dashboard = () => {
     return (
-        <div>
-            <h1>Your Monthly Dashboard</h1>
-        </div>
+        <>
+        
+       <MyLineChart />
+        
+        </>
+       
     );
 };
 
