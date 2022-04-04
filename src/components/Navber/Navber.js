@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navber.css'
 const Navber = () => {
     return (
         <div className='nav-container'>
-          <div >
-          <a href="">HOME</a>
-            <a href="">REVIEW</a>
-            <a href="">DASHBOARD</a>
-            <a href="">BLOGS</a>
-            <a href="">ABOUT</a>
+          <div className='nav-style'>
+            <Link to="/home">HOME</Link>
+            <Link to="/review">REVIEW</Link>
+            <Link to="/dashboard">DASHBOARD</Link>
+            <Link to="/blogs">BLOGS</Link>
+            <Link to="/about">ABOUT</Link>
           </div>
         </div>
     );
