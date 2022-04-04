@@ -1,0 +1,10 @@
+.nav-container{
+   margin-top: 3rem;
+   text-align: center;
+   
+}
+.nav-container a {
+    margin:0px 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

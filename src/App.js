@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Navber from './components/Navber/Navber';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Phone hunter
-        
-      </h1>
+    <div >
+     <Navber />
+     
     </div>
   );
 }
