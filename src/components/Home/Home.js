@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/headphone.png'
+import CustomerReview from '../CustomerReview/CustomerReview';
 import './Home.css'
 
 const Home = () => {
@@ -17,11 +18,12 @@ const Home = () => {
            <img src={logo} alt="" />
            </div>
 
+
         </div>
-        <div className='review-container text-center'>
-            <h1 className='font-black text-3xl '>Customer Reviews (3)</h1>
-            <button  className='mt-6 p-3 bg-gray-300 font-normal rounded-md hover:shadow-lg hover:bg-gray-500' ><Link to="/review">See All Reviews</Link></button>
+        <div>
+            <CustomerReview />
         </div>
+       
        </>
     );
 };
