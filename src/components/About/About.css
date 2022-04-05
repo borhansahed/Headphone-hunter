@@ -1,0 +1,10 @@
+@media screen  and (max-width:668px){
+    .about-container h1{
+        font-size: 1.7rem;
+    }
+    
+    .about-container p{
+        font-size: 1.3rem;
+    }
+    
+}
