@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    pointer-events: all;
     
 }
 .home-container img {
@@ -22,8 +23,26 @@
 @media screen and (max-width:668px) {
     .home-container {
         flex-direction: column;
+        max-width: 370px;
+        margin: 1.5rem auto;
         
         
+    }
+    .home-container h1{
+        font-size: 1.8rem;
+    }
+    .home-container p{
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+    .home-container button{
+        margin-top: 0.7rem;
+        margin-left: 0.7rem;
+        font-size: 0.8rem;
+    }
+    .logo-container{
+        order: -2;
+        margin: 2rem 0px;
     }
     
 }

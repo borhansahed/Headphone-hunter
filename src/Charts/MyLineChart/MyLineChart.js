@@ -14,7 +14,7 @@ const MyLineChart = () => {
         
         <div className='mt-16 '>
             <h1 className='mb-10 font-black text-xl'>MONTH WISE SELL</h1>
-            <LineChart  width={400} height={300} data={chart} >
+            <LineChart  width={350} height={250} data={chart} >
                 <Line type="monotone" dataKey='sell' stroke="#8884d8"></Line>
                 <YAxis dataKey={'sell'} />
                 <XAxis dataKey={'month'} />
@@ -25,7 +25,7 @@ const MyLineChart = () => {
         </div>
         <div className='mt-16 '>
         <h1 className='mb-10 font-black text-xl'>INVESTMENT VS REVENUE</h1>
-            <BarChart width={500} height={300} data={chart}>
+            <BarChart width={350} height={250} data={chart}>
             <Bar dataKey="investment" fill="#8884d8">
                 <LabelList dataKey="revenue" position="top" fill="#82ca9d"/>
                 {/* <Bar dataKey={'revenue'} overlinePosition = "top"  ></Bar> */}
